@@ -49,7 +49,7 @@ div#profile-area  {
         height: 80px;
     }
     .sub-title {
-        color: #cbe965;
+        color: #c4f82a;
         margin-top:.3rem;
     }
 }
@@ -93,9 +93,15 @@ div#links-area  {
     }
 }
 div.link-button:hover  {
-    background-color: #cbe965 !important;
+    background-color: #c4f82a !important;
     .link-text  {
         color: #333333;
         font-weight: 600 !important;
+    }
+}
+
+@media(max-width: 426px) {
+    body  {
+        background-color: #1f1f1f;
     }
 }
